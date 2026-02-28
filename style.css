@@ -1,0 +1,81 @@
+@media screen and (min-width: 1440px) {
+    /* Здесь идут стили, которые применятся при выполнении условия */
+    body{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+        background-color: #cfceff;
+        background-image: url(fon.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    button{
+        margin: 10px;
+        background-color: cornflowerblue;
+        padding: 10px 20px;
+        font-size: 30px;
+        color: whitesmoke;
+        border-radius: 10px;
+    }
+    
+    button:hover{
+        background-color: rgb(71, 121, 213);
+        color: rgb(205, 205, 205);
+    }
+    
+    .row div{
+        padding: 10px;
+        border: 2px solid rgb(220, 255, 253);
+        height: 60px;
+        width: 60px;
+        float: left;
+        margin: 1px;
+    }
+    .game{
+        color: rgb(220, 255, 253);
+    }
+
+}
+
+@media screen and (max-width: 675px) and (min-width: 225px) {
+    body{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+        background-color: #cfceff;
+        background-image: url(foncopy.jpg);
+        background-size: cover;
+        background-position:initial;
+        
+    }
+    
+    button{
+        margin: 10px;
+        background-color: cornflowerblue;
+        padding: 10px 20px;
+        font-size: 30px;
+        color: whitesmoke;
+        border-radius: 10px;
+    }
+    
+    button:hover{
+        background-color: rgb(71, 121, 213);
+        color: rgb(205, 205, 205);
+    }
+    
+    .row div{
+        padding: 10px;
+        border: 2px solid rgb(220, 255, 253);
+        height: 60px;
+        width: 60px;
+        float: left;
+        margin: 1px;
+    }
+    .game{
+        color: rgb(220, 255, 253);
+    }
+}
+
